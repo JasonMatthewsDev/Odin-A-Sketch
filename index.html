@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Odin-A-Sketch</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="top_nav">
+				Box Number:
+				<input type="text" id="txt_amount" maxlength="2" value=16>
+				Box Type:
+				<select id="sl_box_type">
+					<option value="red">Red</option>
+					<option value="random">Random</option>
+					<option value="fade">Fade</option>
+				</select>
+				<input type="button" value="reset" onClick="Reset()">
+			</div>
+
+			<div id="content">
+			</div>
+		</div>
+	</body>
+
+</html>
